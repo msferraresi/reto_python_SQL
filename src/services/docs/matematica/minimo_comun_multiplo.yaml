@@ -1,0 +1,13 @@
+tags:
+  - Matematica
+parameters:
+  - name: lstNumeros
+    description: Debe indicar una lista de numeros separados por comas sobre los cuales sa va a calcular el minimo comun multiplo
+    in: url
+    required: true
+responses:
+  200:
+    description: Retorna el un valor del tipo entero
+
+  400:
+    description: Falla cuando se ingresa algo distinto de numeros

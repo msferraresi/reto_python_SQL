@@ -1,0 +1,21 @@
+tags:
+  - Chiste
+parameters:
+  - name: body
+    description: El cuerpo debe contener el numero del chiste a eliminar
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "number"
+      properties:
+        number:
+          type: "integer"
+          example: 1
+responses:
+  200:
+    description: Se retorna Chiste eliminado
+
+  400:
+    description: Retorna el texto del error que ha ocurrido.

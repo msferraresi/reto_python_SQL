@@ -1,0 +1,10 @@
+tags:
+  - Chiste
+parameters:
+   - description: Se retorna un chiste de manera aleatorea de alguno de los servidores disponibles
+responses:
+  200:
+    description: Retorna un JSON que muestra el texto de un chiste
+
+  400:
+    description: Falla cuando no se encuentra un servidor

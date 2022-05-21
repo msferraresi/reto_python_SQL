@@ -1,0 +1,13 @@
+tags:
+  - Matematica
+parameters:
+  - name: numero
+    description: Debe indicar un numero al que desea adicionarle 1
+    in: url
+    required: true
+responses:
+  200:
+    description: Retorna el numero ingresado mas uno
+
+  400:
+    description: Falla cuando se ingresa algo distinto de un nuemero

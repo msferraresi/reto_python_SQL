@@ -1,0 +1,12 @@
+tags:
+  - Chiste
+parameters:
+  - description: Debe indicar el nombre de un servidor de chistes, puede ser Chuck o Dad
+    in: url
+    required: true
+responses:
+  200:
+    description: Retorna un chiste de uno de los servidores elegidos
+
+  400:
+    description: Retorna un mensaje de error que indica que el servidor no fue encontrado.

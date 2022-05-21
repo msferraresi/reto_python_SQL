@@ -1,0 +1,25 @@
+tags:
+  - Chiste
+parameters:
+  - name: body
+    description: El cuerpo debe contener el numero del chiste y el nuevo texto
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "number"
+        - "texto"
+      properties:
+        number:
+          type: "integer"
+          example: 1
+        texto:
+          type: "string"
+          example: "Este es un chiste de prueba actualizado"
+responses:
+  200:
+    description: Se retorna Chiste actualizado
+
+  400:
+    description: Retorna el texto del error que ha ocurrido.

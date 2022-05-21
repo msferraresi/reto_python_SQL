@@ -12,3 +12,4 @@ SQLALCHEMY_TRACK_MODIFICATIONS=False
 #Configuracion de URLs Chistes
 DAD_URL = "https://icanhazdadjoke.com/slack"
 CHUCK_URL = "https://api.chucknorris.io/jokes/random"
+SWAGGER={ 'title': "Bookmarks API",'uiversion': 3 }
